@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sdBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="sdShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="600" height="380" rx="16" fill="url(#sdBg)" />
+
+  <!-- Activity Project Pill -->
+  <rect x="30" y="24" width="130" height="24" rx="12" fill="#0284c7"/>
+  <text x="95" y="40" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="10" text-anchor="middle">ACTIVITY PROJECT</text>
+
+  <!-- Title & Subtitle in SVG -->
+  <text x="175" y="42" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="16">SafeDrive: Records Management</text>
+
+  <!-- Dashboard Container Window -->
+  <g transform="translate(30, 65)" filter="url(#sdShadow)">
+    <rect width="540" height="285" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    
+    <!-- Window Bar -->
+    <path d="M0,12 Q0,0 12,0 L528,0 Q540,0 540,12 L540,36 L0,36 Z" fill="#0f172a"/>
+    <circle cx="20" cy="18" r="5" fill="#ef4444"/>
+    <circle cx="36" cy="18" r="5" fill="#f59e0b"/>
+    <circle cx="52" cy="18" r="5" fill="#10b981"/>
+    <text x="80" y="22" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="11">safedrive.app/portal/records-overview</text>
+
+    <!-- Sidebar Mini -->
+    <rect x="0" y="36" width="110" height="249" fill="#0b1120"/>
+    <rect x="12" y="52" width="86" height="24" rx="6" fill="#0284c7" opacity="0.3"/>
+    <text x="24" y="68" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="11">📊 Dashboard</text>
+    <text x="24" y="102" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">🚗 Vehicles</text>
+    <text x="24" y="136" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">📋 Logbook</text>
+    <text x="24" y="170" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">⚠️ Incidents</text>
+    <text x="24" y="204" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">⚙️ Settings</text>
+
+    <!-- Main Content Area -->
+    <!-- Metric 1: Total Drivers -->
+    <g transform="translate(125, 48)">
+      <rect width="125" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="22" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="10">Active Drivers</text>
+      <text x="14" y="48" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="20">1,248</text>
+      <text x="82" y="46" fill="#34d399" font-family="'Segoe UI', sans-serif" font-size="10">▲ +12%</text>
+    </g>
+
+    <!-- Metric 2: Safety Rating -->
+    <g transform="translate(262, 48)">
+      <rect width="125" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="22" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="10">Safety Compliance</text>
+      <text x="14" y="48" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="20">98.4%</text>
+      <text x="82" y="46" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-size="10">Grade A</text>
+    </g>
+
+    <!-- Metric 3: Incident Logged -->
+    <g transform="translate(400, 48)">
+      <rect width="125" height="60" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="22" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="10">Clean Records</text>
+      <text x="14" y="48" fill="#10b981" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="20">99.1%</text>
+      <text x="88" y="46" fill="#10b981" font-family="'Segoe UI', sans-serif" font-size="10">Zero Crit</text>
+    </g>
+
+    <!-- Data Table / Driver Logs -->
+    <g transform="translate(125, 122)">
+      <rect width="400" height="150" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      
+      <!-- Table Header -->
+      <rect x="0" y="0" width="400" height="28" rx="6" fill="#1e293b"/>
+      <text x="14" y="18" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="10">RECORD ID</text>
+      <text x="100" y="18" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="10">DRIVER NAME</text>
+      <text x="210" y="18" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="10">LICENSE STATUS</text>
+      <text x="320" y="18" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="10">COMPLIANCE</text>
+
+      <!-- Row 1 -->
+      <line x1="0" y1="58" x2="400" y2="58" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="47" fill="#cbd5e1" font-family="monospace" font-size="10">#DRV-7721</text>
+      <text x="100" y="47" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="11">R. Mosqueda</text>
+      <rect x="210" y="36" width="60" height="18" rx="9" fill="#065f46"/>
+      <text x="240" y="49" fill="#6ee7b7" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="9" text-anchor="middle">VALID</text>
+      <text x="320" y="47" fill="#34d399" font-family="'Segoe UI', sans-serif" font-size="11">★★★★★ 100%</text>
+
+      <!-- Row 2 -->
+      <line x1="0" y1="88" x2="400" y2="88" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="77" fill="#cbd5e1" font-family="monospace" font-size="10">#DRV-5104</text>
+      <text x="100" y="77" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="11">K. Bautista</text>
+      <rect x="210" y="66" width="60" height="18" rx="9" fill="#065f46"/>
+      <text x="240" y="79" fill="#6ee7b7" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="9" text-anchor="middle">VALID</text>
+      <text x="320" y="77" fill="#34d399" font-family="'Segoe UI', sans-serif" font-size="11">★★★★★ 98%</text>
+
+      <!-- Row 3 -->
+      <line x1="0" y1="118" x2="400" y2="118" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="107" fill="#cbd5e1" font-family="monospace" font-size="10">#DRV-3890</text>
+      <text x="100" y="107" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="11">M. Santos</text>
+      <rect x="210" y="96" width="68" height="18" rx="9" fill="#854d0e"/>
+      <text x="244" y="109" fill="#fde047" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="9" text-anchor="middle">RENEWING</text>
+      <text x="320" y="107" fill="#fde047" font-family="'Segoe UI', sans-serif" font-size="11">★★★★☆ 91%</text>
+
+      <!-- Row 4 -->
+      <text x="14" y="137" fill="#cbd5e1" font-family="monospace" font-size="10">#DRV-2219</text>
+      <text x="100" y="137" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="11">J. Mercado</text>
+      <rect x="210" y="126" width="60" height="18" rx="9" fill="#065f46"/>
+      <text x="240" y="139" fill="#6ee7b7" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="9" text-anchor="middle">VALID</text>
+      <text x="320" y="137" fill="#34d399" font-family="'Segoe UI', sans-serif" font-size="11">★★★★★ 96%</text>
+    </g>
+  </g>
+</svg>

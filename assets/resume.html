@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Rostom Jade Mosqueda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e293b;
+      --accent: #4f46e5;
+      --text: #334155;
+      --light-text: #64748b;
+      --border: #e2e8f0;
+      --bg: #ffffff;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f1f5f9;
+      color: var(--text);
+      line-height: 1.5;
+      padding: 2rem 1rem;
+    }
+    .page-actions {
+      max-width: 800px;
+      margin: 0 auto 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+      border: none;
+    }
+    .btn-primary:hover {
+      background: #4338ca;
+    }
+    .btn-outline {
+      background: #ffffff;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-outline:hover {
+      background: #f8fafc;
+    }
+    .resume-card {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 3rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.25rem;
+    }
+    .location {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--light-text);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    .contacts {
+      font-size: 0.88rem;
+      color: var(--light-text);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+    .contacts a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    section {
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+      margin-bottom: 0.75rem;
+    }
+    p {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+    .item {
+      margin-bottom: 1rem;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--primary);
+    }
+    .sub-meta {
+      font-style: italic;
+      color: var(--light-text);
+      font-size: 0.88rem;
+      margin-top: 0.15rem;
+    }
+    ul {
+      margin-left: 1.25rem;
+      margin-top: 0.35rem;
+      font-size: 0.9rem;
+    }
+    li {
+      margin-bottom: 0.25rem;
+    }
+    .skills-list {
+      list-style-type: square;
+    }
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .page-actions {
+        display: none !important;
+      }
+      .resume-card {
+        box-shadow: none;
+        padding: 0;
+        border-radius: 0;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-actions">
+    <a href="../index.html" class="btn btn-outline">← Back to Portfolio</a>
+    <button onclick="window.print()" class="btn btn-primary">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <main class="resume-card">
+    <header>
+      <h1>ROSTOM JADE MOSQUEDA</h1>
+      <div class="location">PAHINA CENTRAL, CEBU CITY</div>
+      <div class="contacts">
+        <span>📧 <a href="mailto:Rostomjademosqueda02@gmail.com">Rostomjademosqueda02@gmail.com</a></span>
+        <span>•</span>
+        <span>📞 (+63) 998 310 7923</span>
+        <span>•</span>
+        <span>🐙 <a href="https://github.com/dodo092" target="_blank" rel="noopener">github.com/dodo092</a></span>
+        <span>•</span>
+        <span>💼 <a href="https://linkedin.com/in/rostom-jade-mosqueda-571541447/" target="_blank" rel="noopener">linkedin.com/in/rostom-jade-mosqueda-571541447</a></span>
+      </div>
+    </header>
+
+    <section>
+      <h2>SUMMARY</h2>
+      <p>
+        Information Technology student with practical experience in developing database-driven web applications and exploring AI-powered development tools. Proficient in JavaScript, Antigravity, and UI/UX design, with experience applying these skills to academic and personal projects. Committed to developing innovative, user-centered software solutions while continuously expanding technical expertise and adapting to emerging technologies.
+      </p>
+    </section>
+
+    <section>
+      <h2>PROJECTS</h2>
+      
+      <div class="item">
+        <div class="item-header">
+          <span>• SmartCane</span>
+          <span>Capstone Project</span>
+        </div>
+        <div class="sub-meta">Figma, JavaScript, Antigravity, Tailwindcss</div>
+        <ul>
+          <li>Engineered an assistive smart cane IoT &amp; AI framework aiding visually impaired individuals with real-time navigation and obstacle detection.</li>
+          <li>Designed responsive mobile interfaces and high-fidelity prototype flows in Figma.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>• SafeDrive: Records</span>
+          <span>Activity Project</span>
+        </div>
+        <div class="sub-meta">JavaScript, Figma, Tailwindcss</div>
+        <ul>
+          <li>Developed a responsive driver record and road safety incident management portal.</li>
+          <li>Constructed intuitive metrics dashboards and compliance tracking logs using modern JavaScript.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>• CuePoint</span>
+          <span>Activity Project</span>
+        </div>
+        <div class="sub-meta">OpenGPT-4o, JavaScript, Node.js</div>
+        <ul>
+          <li>Created an AI prompt-assisted workflow automation utility utilizing OpenGPT-4o to generate contextual cues and quick summaries.</li>
+          <li>Implemented Node.js streaming APIs for responsive, low-latency AI interactions.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>• QR Code-Based System</span>
+          <span>Activity Project</span>
+        </div>
+        <div class="sub-meta">Python, Django, JavaScript, UI/UX Design</div>
+        <ul>
+          <li>Designed and implemented a database-backed QR code attendance and identity verification platform.</li>
+          <li>Utilized Django ORM, secure relational database schemas, and client-side camera scan decoding.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>EDUCATION</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>Bachelor of Science in Information Technology</span>
+          <span>2023 – 2026</span>
+        </div>
+        <div class="sub-meta">Cebu Eastern College</div>
+        <ul>
+          <li>Relevant Coursework: Website Development, Graphic Design, AI Integration</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>Junior and Senior High School</span>
+          <span>2016 – 2021</span>
+        </div>
+        <div class="sub-meta">Regino Mercado Night High School</div>
+        <ul>
+          <li>General Academic Strand (GAS)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>TECHNICAL SKILLS</h2>
+      <ul class="skills-list">
+        <li><strong>Languages &amp; Web Technologies:</strong> HTML, CSS, JavaScript, Java programming, Python, Node.js, Tailwindcss</li>
+        <li><strong>AI &amp; Frameworks:</strong> Antigravity, OpenGPT-4o, Django, REST APIs, Database Management</li>
+        <li><strong>UI/UX &amp; Creative Tools:</strong> Figma, Capcut, Canva, Photopea</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rostom Jade Mosqueda | IT &amp; AI Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Rostom Jade Mosqueda - Information Technology student at Cebu Eastern College specializing in database-driven web applications, Antigravity AI, JavaScript, and UI/UX design.">
+  <meta name="author" content="Rostom Jade Mosqueda">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rostom Jade Mosqueda | IT &amp; AI Developer">
+  <meta property="og:description" content="Explore my Capstone and Activity projects, technical competencies, and academic background.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Playfair Display (Serif), Plus Jakarta Sans (Body/Sans), JetBrains Mono (Code) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+
+  <!-- EDITORIAL HEADER (KL Voigt Style) -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      
+      <!-- Brand Logo / Title -->
+      <a href="#home" class="brand-link" aria-label="Rostom Jade Mosqueda Portfolio">
+        <span class="brand-title">ROSTOM JADE MOSQUEDA</span>
+        <span class="brand-tagline">IT &amp; AI Developer &bull; Cebu Eastern College</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="site-nav" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="dock-link active">About</a></li>
+          <li><a href="#capstone" class="dock-link">Capstone</a></li>
+          <li><a href="#projects" class="dock-link">Portfolio</a></li>
+          <li><a href="#profile" class="dock-link">Journey</a></li>
+          <li><a href="#skills" class="dock-link">Skills</a></li>
+          <li><a href="#contact" class="dock-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action items: Resume, Theme Toggle, Mobile Hamburger -->
+      <div class="header-actions">
+        <!-- Light / Dark Theme toggle -->
+        <button id="themeToggle" class="theme-toggle-btn" title="Toggle Light / Dark mode" aria-label="Toggle Theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="assets/resume.html" target="_blank" rel="noopener" class="btn-outline-pill header-resume-btn" title="View printable resume">
+          <span>Resume</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>
+
+        <!-- Mobile hamburger -->
+        <button class="mobile-menu-trigger" id="mobileToggle" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MAIN EDITORIAL CONTENT -->
+  <main class="page-body">
+
+    <!-- 1. HERO SECTION (Editorial Storytelling Layout) -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <!-- Left: Storytelling Narrative -->
+        <div class="hero-narrative">
+          <div class="hero-badge-pill">
+            <span class="status-indicator"></span>
+            <span>Hi, I'm Rostom! &mdash; Web &amp; AI Developer for Hire</span>
+          </div>
+
+          <h1 class="hero-headline">
+            I'm here to build <span class="serif-accent">purposeful</span> digital solutions.
+          </h1>
+
+          <p class="hero-story-lead">
+            I believe in the power of user-centered software and thoughtful engineering. At Cebu Eastern College (BSIT 2023&ndash;2026), I bridge practical database-driven web development with emerging AI tools to solve real-world problems.
+          </p>
+
+          <p class="hero-story-body">
+            What that really means is I translate the whispers of an idea into tangible, high-performance systems on the web. I'm the one who asks <em>"Why?"</em> and finds the cleanest, most accessible way to make it happen. With practical experience in JavaScript, Antigravity AI, Python, Django, and Figma, I love building applications that make a difference.
+          </p>
+
+          <p class="hero-cta-prompt">
+            How can I help you? <a href="#contact" class="inline-editorial-link">Drop me a line here &rarr;</a>
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-actions-row">
+            <a href="#capstone" class="btn btn-pill-solid">
+              <span>View Capstone &amp; Work</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-pill-outline">
+              <span>Contact Me</span>
+            </a>
+            <a href="assets/resume.html" target="_blank" rel="noopener" class="btn btn-pill-ghost">
+              <span>Print Resume ↗</span>
+            </a>
+          </div>
+
+          <!-- Hero Location & Contact Meta Bar -->
+          <div class="hero-meta-strip">
+            <span class="meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Pahina Central, Cebu City, Philippines
+            </span>
+            <span class="meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              Rostomjademosqueda02@gmail.com
+            </span>
+            <span class="meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              (+63) 998 310 7923
+            </span>
+          </div>
+        </div>
+
+        <!-- Right: Profile Card (Boutique Presentation) -->
+        <div class="hero-profile-side">
+          <div class="profile-portrait-card">
+            <div class="portrait-image-wrapper">
+              <img src="images/avatar.png" alt="Rostom Jade Mosqueda portrait" class="profile-avatar-img" width="180" height="180">
+              <span class="portrait-status-dot" title="Active &amp; Ready for Internships"></span>
+            </div>
+
+            <h3 class="portrait-name">Rostom Jade Mosqueda</h3>
+            <p class="portrait-role">BSIT Student &bull; Cebu Eastern College</p>
+            <p class="portrait-sub">Pahina Central, Cebu City</p>
+
+            <div class="portrait-stats-row">
+              <div class="stat-box">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">2026</span>
+                <span class="stat-label">Graduation</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Dedicated</span>
+              </div>
+            </div>
+
+            <div class="portrait-social-row">
+              <a href="https://github.com/dodo092" target="_blank" rel="noopener" class="portrait-social-link" title="GitHub: dodo092">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com/in/rostom-jade-mosqueda-571541447/" target="_blank" rel="noopener" class="portrait-social-link" title="LinkedIn: rostom-jade-mosqueda-571541447">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. EDITORIAL 3-PILLARS TEASER  -->
+    <section class="editorial-pillars-section">
+      <div class="container">
+        
+        <div class="pillars-grid">
+          
+          <!-- Pillar 1: What I Build -->
+          <div class="pillar-card">
+            <span class="pillar-eyebrow">Flagship Focus</span>
+            <h3 class="pillar-title">Assistive Innovation</h3>
+            <p class="pillar-desc">
+              Discover how SmartCane integrates ultrasonic sensors, haptic feedback, and Antigravity AI to empower visually impaired navigation.
+            </p>
+            <a href="#capstone" class="pillar-action-link">
+              <span>Explore Capstone</span>
+              <span class="arrow">&rarr;</span>
+            </a>
+          </div>
+
+          <!-- Pillar 2: What I Offer -->
+          <div class="pillar-card">
+            <span class="pillar-eyebrow">Practical Engineering</span>
+            <h3 class="pillar-title">Web &amp; Database Systems</h3>
+            <p class="pillar-desc">
+              From vehicular incident logging to real-time QR identity check-ins and AI prompt synthesis, see my working applications in action.
+            </p>
+            <a href="#projects" class="pillar-action-link">
+              <span>View Projects</span>
+              <span class="arrow">&rarr;</span>
+            </a>
+          </div>
+
+          <!-- Pillar 3: Academic Foundation -->
+          <div class="pillar-card">
+            <span class="pillar-eyebrow">Continuous Growth</span>
+            <h3 class="pillar-title">Skills &amp; Education</h3>
+            <p class="pillar-desc">
+              Explore my academic foundation at Cebu Eastern College, multi-tier honest ability assessment, and expanding tech stack.
+            </p>
+            <a href="#profile" class="pillar-action-link">
+              <span>Read Journey</span>
+              <span class="arrow">&rarr;</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Editorial Pull-Quote  -->
+        <div class="editorial-quote-banner">
+          <span class="quote-mark open-quote">&ldquo;</span>
+          <blockquote class="quote-text">
+            Dedicated to developing innovative, user-centered software solutions while continuously expanding technical expertise and adapting to emerging technologies.
+          </blockquote>
+          <cite class="quote-author">&mdash; Rostom Jade Mosqueda, Academic &amp; Engineering Mission</cite>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. FLAGSHIP CAPSTONE SPOTLIGHT (SmartCane Innovation) -->
+    <section class="editorial-section capstone-spotlight-section" id="capstone">
+      <div class="container">
+        
+        <div class="section-lead-tag">
+          <span class="editorial-tag">★ Flagship Capstone Innovation</span>
+        </div>
+
+        <article class="capstone-editorial-card">
+          <!-- Left: Spotlight Media Preview -->
+          <div class="capstone-media-column">
+            <div class="capstone-img-frame">
+              <img src="images/project-smartcane.png" alt="SmartCane Capstone Project concept and UI dashboard" loading="lazy">
+              <span class="media-badge">Cebu Eastern College &bull; Capstone 2026</span>
+            </div>
+          </div>
+
+          <!-- Right: Spotlight Details -->
+          <div class="capstone-content-column">
+            <div class="tech-pill-rack">
+              <span class="tech-pill">Figma</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Antigravity AI</span>
+              <span class="tech-pill">Tailwindcss</span>
+              <span class="tech-pill">IoT Ultrasonic Sensor</span>
+            </div>
+
+            <h2 class="capstone-title">SmartCane: Assistive Mobility Innovation</h2>
+            <p class="capstone-summary">
+              An assistive mobility system leveraging sensor integration, tactile feedback, and Antigravity AI to empower visually impaired individuals with independent navigational safety.
+            </p>
+
+            <div class="capstone-contribution-panel">
+              <h4 class="panel-heading">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>My Project Contribution</span>
+              </h4>
+              <p>
+                Led high-fidelity UI/UX design and mobile user flows in Figma; engineered client-side JavaScript interactions and responsive layouts with Tailwind CSS; coordinated obstacle detection logic and intelligent feedback via the Antigravity AI framework.
+              </p>
+            </div>
+
+            <div class="capstone-action-group">
+              <button class="btn btn-pill-solid open-modal-btn" data-project="smartcane">
+                <span>View Full Blueprint</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+              </button>
+              <a href="https://github.com/dodo092" target="_blank" rel="noopener" class="btn btn-pill-outline">
+                <span>View Repository ↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 4. CURATED WORK & ACTIVITY PROJECTS (Portfolio Section) -->
+    <section class="editorial-section activity-portfolio-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header-row">
+          <div>
+            <span class="editorial-tag">Curated Portfolio</span>
+            <h2 class="editorial-section-title">Academic &amp; Activity Projects</h2>
+            <p class="editorial-section-subtitle">
+              Database-driven web applications and AI tools built during coursework and practical engineering tasks.
+            </p>
+          </div>
+
+          <!-- Category filter dock (Pills) -->
+          <div class="portfolio-filter-row">
+            <button class="filter-chip active" data-filter="all">All Projects</button>
+            <button class="filter-chip" data-filter="ai">AI &amp; Smart Tech</button>
+            <button class="filter-chip" data-filter="web">Web &amp; Database</button>
+          </div>
+        </div>
+
+        <div class="activity-projects-grid">
+
+          <!-- Activity 1: SafeDrive: Records -->
+          <article class="activity-card" data-category="web">
+            <div class="activity-media-box">
+              <img src="images/project-safedrive.svg" alt="SafeDrive Records Management" loading="lazy">
+              <span class="mini-badge">Activity Project</span>
+            </div>
+            <div class="activity-body">
+              <div class="tech-pill-rack">
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Figma</span>
+                <span class="tech-pill">Tailwindcss</span>
+              </div>
+              <h3 class="activity-title">SafeDrive: Records</h3>
+              <p class="activity-desc">
+                A streamlined web portal for tracking driver incident reports, road safety metrics, license statuses, and fleet compliance logs.
+              </p>
+              <div class="contribution-callout">
+                <strong>Contribution:</strong> UI/UX wireframing &amp; prototyping in Figma; interactive record search, tabular status validation, and responsive components in JavaScript and Tailwind CSS.
+              </div>
+              <div class="activity-card-footer">
+                <button class="btn btn-sm btn-pill-solid open-modal-btn" data-project="safedrive">
+                  <span>Details &rarr;</span>
+                </button>
+                <a href="https://github.com/dodo092" target="_blank" rel="noopener" class="btn btn-sm btn-pill-outline">
+                  <span>GitHub ↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Activity 2: CuePoint -->
+          <article class="activity-card" data-category="ai">
+            <div class="activity-media-box">
+              <img src="images/project-cuepoint.png" alt="CuePoint AI Prompt Assistant" loading="lazy">
+              <span class="mini-badge">Activity Project</span>
+            </div>
+            <div class="activity-body">
+              <div class="tech-pill-rack">
+                <span class="tech-pill">OpenGPT-4o</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Node.js</span>
+              </div>
+              <h3 class="activity-title">CuePoint</h3>
+              <p class="activity-desc">
+                An intelligent prompt-assisted productivity companion utilizing OpenGPT-4o to synthesize quick summaries, contextual code cues, and rapid responses.
+              </p>
+              <div class="contribution-callout">
+                <strong>Contribution:</strong> Node.js API endpoints connecting to OpenGPT-4o; engineered contextual prompt templates; front-end streaming token display using vanilla JavaScript.
+              </div>
+              <div class="activity-card-footer">
+                <button class="btn btn-sm btn-pill-solid open-modal-btn" data-project="cuepoint">
+                  <span>Details &rarr;</span>
+                </button>
+                <a href="https://github.com/dodo092" target="_blank" rel="noopener" class="btn btn-sm btn-pill-outline">
+                  <span>GitHub ↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Activity 3: QR Code-Based System -->
+          <article class="activity-card" data-category="web">
+            <div class="activity-media-box">
+              <img src="images/project-qrcode.jpg" alt="QR Code-Based System" loading="lazy">
+              <span class="mini-badge">Activity Project</span>
+            </div>
+            <div class="activity-body">
+              <div class="tech-pill-rack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Django</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">UI/UX Design</span>
+              </div>
+              <h3 class="activity-title">QR Code-Based System</h3>
+              <p class="activity-desc">
+                A database-driven attendance and identity verification platform utilizing dynamic QR code generation and real-time browser camera scanner decoding.
+              </p>
+              <div class="contribution-callout">
+                <strong>Contribution:</strong> Full-stack Django backend architecture and relational database schema; camera scanning integration in JavaScript; administrative attendance dashboard design.
+              </div>
+              <div class="activity-card-footer">
+                <button class="btn btn-sm btn-pill-solid open-modal-btn" data-project="qrcode">
+                  <span>Details &rarr;</span>
+                </button>
+                <a href="https://github.com/dodo092" target="_blank" rel="noopener" class="btn btn-sm btn-pill-outline">
+                  <span>GitHub ↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Editorial Pull-Quote 2 -->
+        <div class="editorial-quote-banner quote-banner-alt">
+          <span class="quote-mark open-quote">&ldquo;</span>
+          <blockquote class="quote-text">
+            Combining practical database architecture, clean user interfaces, and intelligent AI orchestration to turn ideas into tangible digital tools.
+          </blockquote>
+          <cite class="quote-author">&mdash; Cebu Eastern College (BSIT 2023&ndash;2026)</cite>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. PROFILE, JOURNEY & HONEST ASSESSMENT (Dual Editorial Matrix) -->
+    <section class="editorial-section profile-journey-section" id="profile">
+      <div class="container">
+        
+        <div class="section-heading-centered">
+          <span class="editorial-tag">Profile &amp; Background</span>
+          <h2 class="editorial-section-title">About Me &amp; Education Journey</h2>
+          <p class="editorial-section-subtitle">
+            Personal aspirations, honest ability assessment, and academic roots in Cebu City.
+          </p>
+        </div>
+
+        <div class="dual-matrix-grid">
+          
+          <!-- Column 1: Background & Honest Ability Assessment -->
+          <div class="matrix-card">
+            <div class="matrix-card-header">
+              <div class="header-icon icon-bio">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              </div>
+              <div>
+                <h3 class="matrix-card-title">Background &amp; Aspirations</h3>
+                <span class="matrix-card-sub">Pahina Central, Cebu City &bull; Cebu Eastern College</span>
+              </div>
+            </div>
+
+            <div class="matrix-text-block">
+              <p>
+                I am an Information Technology student at <strong>Cebu Eastern College</strong> (BSIT 2023&ndash;2026), committed to developing innovative, user-centered software solutions while continuously expanding technical expertise and adapting to emerging technologies.
+              </p>
+              <p>
+                With practical experience in developing database-driven web applications and exploring AI-powered development tools, I apply JavaScript, Antigravity AI, and UI/UX design to build robust, modern digital solutions.
+              </p>
+            </div>
+
+            <!-- Honest Assessment of Current Abilities -->
+            <div class="honest-assessment-box">
+              <h4 class="assessment-title">Honest Description of Current Abilities</h4>
+              
+              <div class="ability-row">
+                <div class="ability-level green">
+                  <span class="dot"></span>
+                  <strong>Confident &amp; Actively Applied:</strong>
+                </div>
+                <p>HTML5, CSS3, JavaScript DOM scripting, Tailwind CSS, Figma UI/UX prototyping, Antigravity AI framework, and OpenGPT-4o integration.</p>
+              </div>
+
+              <div class="ability-row">
+                <div class="ability-level blue">
+                  <span class="dot"></span>
+                  <strong>Proficient Through Coursework &amp; Projects:</strong>
+                </div>
+                <p>Java programming, Python &amp; Django web development, Node.js backend APIs, relational database management (SQL), and computer networking.</p>
+              </div>
+
+              <div class="ability-row">
+                <div class="ability-level purple">
+                  <span class="dot"></span>
+                  <strong>Actively Expanding:</strong>
+                </div>
+                <p>Advanced autonomous AI workflows, multi-agent frameworks, cloud hosting optimizations (GitHub Pages, Vercel, Firebase), and automated test suites.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Education Journey Cards -->
+          <div class="matrix-card">
+            <div class="matrix-card-header">
+              <div class="header-icon icon-edu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              </div>
+              <div>
+                <h3 class="matrix-card-title">Academic Education</h3>
+                <span class="matrix-card-sub">Formal Training &amp; Foundational Studies</span>
+              </div>
+            </div>
+
+            <div class="education-card-deck">
+              <!-- College -->
+              <div class="edu-item">
+                <div class="edu-top">
+                  <div>
+                    <h4 class="edu-degree">Bachelor of Science in Information Technology</h4>
+                    <span class="edu-school">Cebu Eastern College</span>
+                  </div>
+                  <span class="edu-date-badge">2023 &ndash; 2026</span>
+                </div>
+                <p class="edu-summary">
+                  Focusing on practical software solutions, user-centered digital applications, and modern AI development tools.
+                </p>
+                <div class="coursework-rack">
+                  <span class="course-label">Relevant Coursework:</span>
+                  <div class="course-tag-list">
+                    <span class="c-tag">Website Development</span>
+                    <span class="c-tag">Graphic Design</span>
+                    <span class="c-tag">AI Integration</span>
+                    <span class="c-tag">Database Management</span>
+                    <span class="c-tag">Networking</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- High School -->
+              <div class="edu-item">
+                <div class="edu-top">
+                  <div>
+                    <h4 class="edu-degree">Junior and Senior High School</h4>
+                    <span class="edu-school">Regino Mercado Night High School</span>
+                  </div>
+                  <span class="edu-date-badge">2016 &ndash; 2021</span>
+                </div>
+                <p class="edu-summary">
+                  Completed secondary education through the General Academic Strand, building strong critical reasoning and communicative foundations.
+                </p>
+                <div class="coursework-rack">
+                  <span class="course-label">Academic Track:</span>
+                  <div class="course-tag-list">
+                    <span class="c-tag">GAS Strand (General Academic Strand)</span>
+                    <span class="c-tag">Applied Mathematics</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. TECHNICAL SKILLS 4-QUADRANT MATRIX -->
+    <section class="editorial-section skills-matrix-section" id="skills">
+      <div class="container">
+        <div class="section-heading-centered">
+          <span class="editorial-tag">Toolbox &amp; Frameworks</span>
+          <h2 class="editorial-section-title">Technical Competencies</h2>
+          <p class="editorial-section-subtitle">
+            Proficiencies across programming languages, backend systems, AI tools, and creative design suites.
+          </p>
+        </div>
+
+        <div class="skills-quadrant-grid">
+          
+          <!-- Q1: Languages & Web -->
+          <div class="quadrant-card">
+            <div class="quadrant-header">
+              <span class="q-icon icon-code">&lt;/&gt;</span>
+              <h4 class="quadrant-title">Languages &amp; Web</h4>
+            </div>
+            <ul class="q-skill-list">
+              <li><span class="q-dot"></span><strong>HTML5 &amp; CSS3</strong> &ndash; Semantic, responsive layout architecture</li>
+              <li><span class="q-dot"></span><strong>JavaScript (ES6+)</strong> &ndash; DOM manipulation, async APIs, modern features</li>
+              <li><span class="q-dot"></span><strong>Java Programming</strong> &ndash; Object-oriented design &amp; algorithms</li>
+              <li><span class="q-dot"></span><strong>Python</strong> &ndash; Scripting, web services &amp; data handling</li>
+            </ul>
+          </div>
+
+          <!-- Q2: Backend & Frameworks -->
+          <div class="quadrant-card">
+            <div class="quadrant-header">
+              <span class="q-icon icon-stack">⚙️</span>
+              <h4 class="quadrant-title">Frameworks &amp; Backend</h4>
+            </div>
+            <ul class="q-skill-list">
+              <li><span class="q-dot"></span><strong>Tailwind CSS</strong> &ndash; Utility-first responsive styling</li>
+              <li><span class="q-dot"></span><strong>Django</strong> &ndash; Full-stack Python web framework &amp; ORM</li>
+              <li><span class="q-dot"></span><strong>Node.js</strong> &ndash; Server-side JavaScript runtime &amp; APIs</li>
+              <li><span class="q-dot"></span><strong>Database Management</strong> &ndash; Relational modeling &amp; SQL queries</li>
+              <li><span class="q-dot"></span><strong>Networking</strong> &ndash; Protocol fundamentals &amp; client-server models</li>
+            </ul>
+          </div>
+
+          <!-- Q3: AI Development -->
+          <div class="quadrant-card">
+            <div class="quadrant-header">
+              <span class="q-icon icon-ai">⚡</span>
+              <h4 class="quadrant-title">AI &amp; Emerging Tech</h4>
+            </div>
+            <ul class="q-skill-list">
+              <li><span class="q-dot"></span><strong>Antigravity AI</strong> &ndash; Agentic development &amp; AI orchestration</li>
+              <li><span class="q-dot"></span><strong>OpenGPT-4o Integration</strong> &ndash; Prompt engineering &amp; streaming APIs</li>
+              <li><span class="q-dot"></span><strong>AI Workflow Design</strong> &ndash; Contextual cues, automation tools</li>
+              <li><span class="q-dot"></span><strong>Smart IoT Interfacing</strong> &ndash; Telemetry and feedback systems</li>
+            </ul>
+          </div>
+
+          <!-- Q4: UI/UX & Media -->
+          <div class="quadrant-card">
+            <div class="quadrant-header">
+              <span class="q-icon icon-design">🎨</span>
+              <h4 class="quadrant-title">UI/UX &amp; Media Tools</h4>
+            </div>
+            <ul class="q-skill-list">
+              <li><span class="q-dot"></span><strong>Figma</strong> &ndash; Wireframes, user journeys &amp; component prototypes</li>
+              <li><span class="q-dot"></span><strong>Capcut</strong> &ndash; Video editing &amp; project media production</li>
+              <li><span class="q-dot"></span><strong>Canva</strong> &ndash; Visual asset creation &amp; presentations</li>
+              <li><span class="q-dot"></span><strong>Photopea</strong> &ndash; Digital graphics &amp; image optimization</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT HUB (Editorial Layout) -->
+    <section class="editorial-section contact-hub-section" id="contact">
+      <div class="container">
+        
+        <div class="section-heading-centered">
+          <span class="editorial-tag">Let's Connect</span>
+          <h2 class="editorial-section-title">Get In Touch</h2>
+          <p class="editorial-section-subtitle">
+            Reach out for academic collaborations, project inquiries, or internship opportunities in Cebu City.
+          </p>
+        </div>
+
+        <div class="contact-hub-grid">
+          
+          <!-- Contact Channels Column -->
+          <div class="hub-tile hub-channels">
+            <h3 class="hub-tile-title">Direct Channels</h3>
+            <p class="hub-tile-desc">Feel free to contact me directly through email or phone. I respond promptly.</p>
+
+            <div class="channel-list">
+              <!-- Email -->
+              <div class="channel-card">
+                <div class="ch-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="ch-info">
+                  <span class="ch-label">Email Address</span>
+                  <a href="mailto:Rostomjademosqueda02@gmail.com" class="ch-value">Rostomjademosqueda02@gmail.com</a>
+                  <button class="ch-copy-btn" id="copyEmailBtn" title="Copy email address">
+                    <span>Copy Email</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="channel-card">
+                <div class="ch-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="ch-info">
+                  <span class="ch-label">Phone &amp; Mobile</span>
+                  <a href="tel:+639983107923" class="ch-value">(+63) 998 310 7923</a>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="channel-card">
+                <div class="ch-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="ch-info">
+                  <span class="ch-label">Location</span>
+                  <span class="ch-value">Pahina Central, Cebu City, Philippines</span>
+                </div>
+              </div>
+
+              <!-- Online Portals -->
+              <div class="channel-card">
+                <div class="ch-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                </div>
+                <div class="ch-info">
+                  <span class="ch-label">Online Portals</span>
+                  <div class="ch-links">
+                    <a href="https://github.com/dodo092" target="_blank" rel="noopener">github.com/dodo092</a>
+                    <span>&bull;</span>
+                    <a href="https://linkedin.com/in/rostom-jade-mosqueda-571541447/" target="_blank" rel="noopener">linkedin.com/in/rostom-jade-mosqueda-571541447</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Message Composer Column -->
+          <div class="hub-tile hub-composer">
+            <h3 class="hub-tile-title">Send a Message</h3>
+            <p class="hub-tile-desc">Compose a note below to trigger your default email client with a pre-formatted message.</p>
+
+            <form id="contactForm" class="hub-form">
+              <div class="form-row-2">
+                <div class="input-wrap">
+                  <label for="userName">Your Name <span class="req">*</span></label>
+                  <input type="text" id="userName" name="name" placeholder="e.g. Maria Santos" required>
+                </div>
+                <div class="input-wrap">
+                  <label for="userEmail">Your Email <span class="req">*</span></label>
+                  <input type="email" id="userEmail" name="email" placeholder="e.g. maria@example.com" required>
+                </div>
+              </div>
+
+              <div class="input-wrap">
+                <label for="userSubject">Subject <span class="req">*</span></label>
+                <input type="text" id="userSubject" name="subject" placeholder="e.g. IT Internship / Capstone Collaboration" required>
+              </div>
+
+              <div class="input-wrap">
+                <label for="userMessage">Message <span class="req">*</span></label>
+                <textarea id="userMessage" name="message" rows="4" placeholder="Hello Rostom, I reviewed your portfolio..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-pill-solid btn-block">
+                <span>Launch Email Client &rarr;</span>
+              </button>
+
+              <div class="form-feedback-notice" id="formFeedback"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive Project Details Modal -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="modal-content" id="modalContent">
+       
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notice -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite"></div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" title="Back to top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+  <!-- FOOTER  -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-brand-title">ROSTOM JADE MOSQUEDA</span>
+          <p class="footer-bio-note">
+            Here at my personal portfolio, I believe in the power of purposeful engineering. I build database-driven web applications, integrate emerging AI systems, and design user-centered digital solutions for academic innovation and forward-thinking teams.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <h5 class="footer-col-title">Navigation</h5>
+          <div class="footer-nav-links">
+            <a href="#home">About</a>
+            <a href="#capstone">Capstone</a>
+            <a href="#projects">Portfolio</a>
+            <a href="#profile">Journey</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="assets/resume.html" target="_blank" rel="noopener">Printable Resume ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="footer-credit">
+          Illustrations and project media copyright Rostom Jade Mosqueda. Built for academic showcase at Cebu Eastern College (BSIT 2023&ndash;2026), Pahina Central, Cebu City.
+        </p>
+        <p class="footer-copy">
+          &copy; 2026 Rostom Jade Mosqueda. All rights reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
