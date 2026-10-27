@@ -60,7 +60,12 @@ d:\personalportfolio\
 
 ## 🌐 Publishing Guide 
 
-### Vercel Hobby
-1. Sign in to [vercel.com](https://vercel.com) with GitHub.
-2. Import your portfolio repository.
-3. Keep default settings and click **Deploy**.
+### Github Pages
+1. Sign in to GitHub – Go to github.com and log in to your account.
+2. Create a repository – Click the + icon, select New repository, enter a repository name, and click Create repository.
+3. Upload website files – Click Add file → Upload files, upload your website files, including index.html, and click Commit changes.
+4. Open Settings – Go to your repository and click Settings → Pages.
+5. Configure GitHub Pages – Under Build and deployment, select Deploy from a branch, choose the main branch and / (root) folder, then click Save.
+6. Access your published website – Wait a few minutes for deployment, then click Visit site on the Pages settings screen.
+
+Visit my Website: https://dodo092.github.io/portfolio/
